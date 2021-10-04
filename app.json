@@ -1,9 +1,9 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "Alisha Music Bot",
+    "logo": "https://telegra.ph/file/351629d530f877ec5698a.jpg",
+    "description": "Alisha music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/AbhimanyuRanawat/AlishaMusic2.2",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -42,17 +42,17 @@
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "Queen_Alisha"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
+            "value": "https://telegra.ph/file/5add5d851ca830781d81f.png"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "Venom_Hai_Hum"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -69,17 +69,17 @@
         "DURATION_LIMIT": {
             "description": "max duration for music to download (in minutes).",
             "required": true,
-            "value": "40"
+            "value": "60"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "ABOUTABHI"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "Shayri_Music_Lovers"
         }
     },
     "buildpacks": [
