@@ -30,25 +30,25 @@ async def cbstart(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/QueenAliahaRobot?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/Venom_Hai_Hum"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Official Group", url=f"https://t.me/{Shayri_Music_Lovers}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Official Channel", url=f"https://t.me/{ABOUTABHI}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "🌐 Source Code", url="https:/t.me/Venom_Hai_Hum "
                     )
                 ],
             ]
