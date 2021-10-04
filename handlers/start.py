@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/QueenAlishaRobot?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
@@ -57,15 +57,15 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Official Group", url=f"https://t.me/Shayri_Music_Lovers {GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Official Channel", url=f"https://t.me/ABOUTABHI {UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "🌐 Source Code", url="https://t.me/Venom_Hai_Hum"
                     )
                 ],
             ]
@@ -87,10 +87,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ Group", url=f"https://t.me/Shayri_Music_Lovers {GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Channel", url=f"https://t.me/ABOUTABHI {UPDATES_CHANNEL}"
                     ),
                 ]
             ]
@@ -141,7 +141,7 @@ async def help_(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["ping", f"ping@QueenAlishaRobot{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
