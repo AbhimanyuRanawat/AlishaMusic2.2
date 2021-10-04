@@ -479,7 +479,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \n\nassistant can't join this group due to many join requests for userbot."
-                        f"\n\nor add @{ASSISTANT_NAME} to this group manually then try again.</b>",
+                        f"\n\nor add @Queen_Alisha to this group manually then try again.</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -525,14 +525,14 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI{UPDATES_CHANNEL}"
                     )
                 ],
             ]
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumb_name = "https://telegra.ph/file/5add5d851ca830781d81f.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -579,7 +579,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI {UPDATES_CHANNEL}"
                     )
                 ],
             ]
@@ -673,7 +673,7 @@ async def play(_, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                            "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI{UPDATES_CHANNEL}"
                         )
                     ],
                 ]
@@ -778,7 +778,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
+            [InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI {UPDATES_CHANNEL}")],
         ]
     )
     await generate_cover(title, thumbnail)
@@ -934,9 +934,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI {UPDATES_CHANNEL}"
                 ),
-                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Shayri_Music_Lovers{GROUP_SUPPORT}"),
             ],
         ]
     )
