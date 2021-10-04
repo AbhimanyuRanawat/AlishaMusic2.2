@@ -432,7 +432,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="🎧 CHANNEL", url=f"https://t.me/{updateschannel}"
+                        text="🎧 CHANNEL", url=f"https://t.me/ABOUTABHI{updateschannel}"
                     )
                 ],
             ]
@@ -480,7 +480,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎧 CHANNEL", url=f"https://t.me/{updateschannel}"
+                        "🎧 CHANNEL", url=f"https://t.me/ABOUTABHI{updateschannel}"
                     )
                 ],
             ]
@@ -523,7 +523,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎧 CHANNEL", url=f"https://t.me/{updateschannel}"
+                        "🎧 CHANNEL", url=f"https://t.me/ABOUTABHI{updateschannel}"
                     )
                 ],
             ]
