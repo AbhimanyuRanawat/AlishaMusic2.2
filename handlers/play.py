@@ -605,32 +605,13 @@ async def play(_, message: Message):
             toxxt = "\n"
             j = 0
             user = user_name
-            emojilist = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}...](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by {BOT_NAME} AI__\n\n"
+                toxxt += f" └ ⚡ __Powered by Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢ RᴀɴᴀᴡᴀT  AI__\n\n"
                 j += 1
-            keyboard = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            "1️⃣", callback_data=f"plll 0|{query}|{user_id}"
-                        ),
-                        InlineKeyboardButton(
-                            "2️⃣", callback_data=f"plll 1|{query}|{user_id}"
-                        ),
-                        InlineKeyboardButton(
-                            "3️⃣", callback_data=f"plll 2|{query}|{user_id}"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "4️⃣", callback_data=f"plll 3|{query}|{user_id}"
-                        ),
-                        InlineKeyboardButton(
-                            "5️⃣", callback_data=f"plll 4|{query}|{user_id}"
-                        ),
+            
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
